@@ -5,10 +5,10 @@
 #    This script wraps docker exec and docker run to restart a stopped container and enter it
 # 
 #  Arguments:
-#     None
+#     - Container name
 # 
 #  Returns:
-#     None
+#     Places user in new interactive shell inside previously stopped container.
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 

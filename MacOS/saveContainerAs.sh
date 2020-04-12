@@ -8,37 +8,17 @@
 #     None
 # 
 #  Returns:
-# 
-#  Dependancy:
-#     Mac
-#     XQuartz
-#     centos 7
-#     docker
-# 
-#  Called By:
-#     command line
-# 
-#  Global Inputs/Reads:
 #     None
-# 
-#  Global Outputs/Writes:
-#     None
-# 
-#  Limitations, Assumptions, External Events, and Notes:
-#     None
-#
-#   Algorithm:
-#     - Find and commit container to image
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 
-#  History:  Date Written  2020-03-20
+#  History:  Date Written  2020-03-30
 # ====================================================================
 
 display_usage() { 
 	echo "This script will commit a container to a new image (MAC)" 
 	echo -e "\nUsage: ./saveContainerAs.sh <CONTAINER NAME> <IMAGE SAVENAME>\n"
-	echo -e "\ne.g.:  ./saveContainerAs.sh march-20-workspace usernameplssdev \n"
+	echo -e "\ne.g.:  ./saveContainerAs.sh march-20-workspace newimagecopy \n"
         echo -e "\nNOTE: If your <IMAGE SAVENAME> is an existing image, it will be overwritten."
         echo -e "       If you want to keep your changes separate from the image you are using now, change <IMAGE SAVENAME>\n" 
 	} 

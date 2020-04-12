@@ -5,40 +5,20 @@
 #    This script will push the specified image to the local registry.
 # 
 #  Arguments:
-#     None
+#     - Image name
 # 
 #  Returns:
-# 
-#  Dependancy:
-#     Mac
-#     XQuartz
-#     centos 7
-#     docker
-# 
-#  Called By:
-#     command line
-# 
-#  Global Inputs/Reads:
-#     None
-# 
-#  Global Outputs/Writes:
-#     None
-# 
-#  Limitations, Assumptions, External Events, and Notes:
-#     None
-#
-#   Algorithm:
-#     - Wrap docker push
+#     Tags and pushes image to local registry
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 
-#  History:  Date Written  2020-03-20
+#  History:  Date Written  2020-03-30
 # ====================================================================
 
 display_usage() { 
-	echo "This script will push a specified image to the js-er-code server. (MAC)" 
+	echo "This script will push a specified image to the local Docker registry. (MAC)" 
 	echo -e "\nUsage: ./plublishImage.sh <IMAGE_NAME>\n"
-        echo -e "\nUse this if you want to share your development image with others, or back it up to the server."
+        echo -e "\nUse this if you want to share your development image with others, or back it up."
         echo -e "\nNOTE: You must be logged in to docker to execute this script."
 	} 
 

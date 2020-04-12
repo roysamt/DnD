@@ -5,10 +5,10 @@
 #    This script wraps docker exec to spawn another shell in a running container.
 # 
 #  Arguments:
-#     None
+#     - Container name
 # 
 #  Returns:
-#     None
+#     Places user in new interactive shell inside running container.
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 

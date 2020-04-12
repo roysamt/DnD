@@ -8,7 +8,7 @@
 #     None
 # 
 #  Returns:
-#     None
+#     Deletes unused Docker image layers and containers, and returns hashes of deleted objects.
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 

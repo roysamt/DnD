@@ -5,10 +5,10 @@
 #    This script will walk through configuring a docker image for development on a MAC.
 # 
 #  Arguments:
-#     None
+#     - Relative path to a valid Dockerfile
 # 
 #  Returns:
-#     None
+#     Builds and names an image from the provided Dockerfile
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 
@@ -18,7 +18,7 @@
 display_usage() { 
 	echo "This script will walk you through configuring a Docker image that you can use for development. (MAC)" 
 	echo -e "\nUsage: ./configureDockerContainer.sh <Path-to-Dockerfile>\n"
-	echo -e "\ne.g.: ./configureDockerContainer.sh os_images/ubuntu/Dockerfile\n"
+	echo -e "\ne.g.: ./configureDockerContainer.sh ../os_images/ubuntu/Dockerfile\n"
     echo -e "\nThe image will be initally named according to your username and the date. Rename it with ./saveContainerAs.\n" 
 	} 
 

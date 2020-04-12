@@ -5,10 +5,12 @@
 #    This script will run a docker container for development on a Mac.
 # 
 #  Arguments:
-#     None
+#     - Container name
+#     - Image name
 # 
 #  Returns:
-#     None
+#     Creates and configures a new container for X11 display forwarding, and places the user
+#     in an interactive shell within it.
 #
 #  Author(s):  Tejas Roysam     (Initial version)
 # 
